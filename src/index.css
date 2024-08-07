@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+  font-family: 'UniteaSans';
+  src: url('./assets/fonts/unitea-sans-cufonfonts/UniteaSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'UniteaSans';
+  src: url('./assets/fonts/unitea-sans-cufonfonts/UniteaSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UniteaSans';
+  src: url('./assets/fonts/Unitea Sans-Bold.ttf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'UniteaSans', sans-serif;
+}
