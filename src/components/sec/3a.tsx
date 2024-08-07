@@ -1,4 +1,3 @@
-import { SectionAnimted } from '../animationsection/animationSection'
 import { CardPoroducts } from '../card/products'
 
 export const Sec3a = () => {
