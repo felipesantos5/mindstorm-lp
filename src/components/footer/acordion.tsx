@@ -4,7 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
-export const AccordionFooter = (props: AccordionFooterProps) => {
+export const AccordionFooter = () => {
   return (
     <div className='hidden md:block pb-20'>
       <Accordion className="!bg-transparent !text-white">
