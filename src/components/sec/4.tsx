@@ -3,7 +3,7 @@ import { BannerContent } from "../banner/bannerContent"
 
 export const Sec4 = () => {
   return (
-    <section className="bg-backgroundLight pb-36 relative text-white ">
+    <section className="bg-backgroundLight pt-36 relative text-white ">
       <SectionAnimted className="flex max-w-7xl gap-20 m-auto xl:px-4 md:flex-col md:items-center">
         <BannerContent title={"Salve tempo"} text={"Don’t waste engineering time manually writing code and building infrastructure to extract and maintain web data. Start relying on Reworkd and automate your extraction today."} icon={<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="SVG">

@@ -7,7 +7,7 @@ interface CardPoroductsProps {
 
 export const CardPoroducts = (props: CardPoroductsProps) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-baseline">
       <img src={cardProdutosImg} alt="cartão" className="mb-10 -translate-x-6" />
       <h3 className="pb-1 text-textSecundary">{props.title}</h3>
       <p className="pb-3 text-subText">{props.paragraph}</p>

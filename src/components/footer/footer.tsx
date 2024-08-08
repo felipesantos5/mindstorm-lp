@@ -1,3 +1,4 @@
+import { AccordionFooter } from "./acordion";
 import { NavFooter } from "./navFooter"
 
 
@@ -8,13 +9,13 @@ export const Footer = () => {
 
   return (
     <footer className="bg-[#1D2939] font-inter">
-      <section className="max-w-7xl m-auto flex flex-col py-16">
-        <div className="flex justify-between">
+      <section className="max-w-7xl m-auto flex flex-col py-16 xl:px-4">
+        <div className="flex justify-between lg:gap-12 md:flex-col">
           <div className="flex flex-col gap-5">
             <h3 className="text-white text-2xl">MindStorm</h3>
             <p className="text-[#EAECF0] max-w-80">Experimentar do que as soluções digitais podem oferecer, é a chave para crecer.</p>
           </div>
-          <div className="flex gap-16">
+          <div className="flex gap-16 md:hidden">
             <div>
               <NavFooter title={"Navegação"} items={navigation} />
             </div>
@@ -27,7 +28,8 @@ export const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#101828] py-12">
+      <AccordionFooter />
+      <section className="bg-[#101828] py-12 lg:px-4">
         <div className="flex justify-between items-center max-w-7xl m-auto">
           <p className="text-[#98A2B3]">© 2024 Mindstorm. Todos os direitos reservados.</p>
           <div className="flex gap-6">

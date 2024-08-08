@@ -1,5 +1,5 @@
-import logo from '../assets/logo-header.png'
-import circleRight from "../assets/circle-cta-right.svg"
+import logo from '../../assets/logo-header.png'
+import circleRight from "../../assets/circle-cta-right.svg"
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 

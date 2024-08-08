@@ -1,5 +1,5 @@
 import { Footer } from "./components/footer/footer"
-import { Header } from "./components/header"
+import { Header } from "./components/header/header"
 import { Sec1 } from "./components/sec/1"
 import { Sec2 } from "./components/sec/2"
 import { Sec3 } from "./components/sec/3"
