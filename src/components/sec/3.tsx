@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { SectionAnimted } from "../animationsection/animationSection"
 import { Button } from "../button/defaut"
 
 export const Sec3 = () => {

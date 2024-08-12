@@ -1,7 +1,6 @@
 import circleLeft from "../../assets/circle-cta-left.svg"
 import { Button } from "../button/defaut"
 import card from "../../assets/testando.svg"
-import { SectionAnimted } from "../animationsection/animationSection"
 import { motion } from "framer-motion"
 
 
@@ -17,7 +16,7 @@ export const Sec1 = () => {
         <Button children={"Contratar serviço"} />
       </motion.section>
       <img src={card} alt="" className="absolute -bottom-[600px] z-30" />
-      <img src={circleLeft} alt="" className="absolute top-0 left-0 z-20" />
+      <img src={circleLeft} alt="" className="absolute top-32 -left-16 md:-left-48 z-20 pointer-events-none" />
     </section>
   )
 }

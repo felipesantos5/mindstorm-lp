@@ -3,14 +3,35 @@ import { useKeenSlider } from 'keen-slider/react';
 const Carousel = () => {
   const animation = { duration: 7500, easing: (t: number) => t }
 
+  function getResponsiveConfig() {
+    const width = window.innerWidth;
+
+    if (width < 600) {
+      return {
+        slides: {
+          perView: 3
+        },
+      };
+    } else if (width < 1024) {
+      return {
+        slides: {
+          perView: 5
+        },
+      };
+    } else {
+      return {
+        slides: {
+          perView: 6
+        },
+      };
+    }
+  }
+
   const [sliderRef] = useKeenSlider({
     loop: true,
     renderMode: "performance",
     drag: false,
-    slides: {
-      perView: 5,
-      spacing: 15,
-    },
+    ...getResponsiveConfig(),
     created(s) {
       s.moveToIdx(5, true, animation)
     },

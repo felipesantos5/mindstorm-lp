@@ -12,14 +12,13 @@ export const Sec5 = () => {
         </div>
         <motion.img src={Logo} alt="logo MindStorm" className='w-[509px]'
           animate={{
-            y: [0, -20, 0], // Move para cima, depois para baixo e volta ao início
-            // x: [0, -20, 0],
+            y: [0, -20, 0],
           }}
           transition={{
-            duration: 3, // Duração total da animação
+            duration: 3,
             ease: "easeInOut",
-            repeat: Infinity, // Loop infinito
-            repeatType: "mirror", // Repete a animação de forma espelhada
+            repeat: Infinity,
+            repeatType: "mirror",
           }} />
       </SectionAnimted>
     </section>

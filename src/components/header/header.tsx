@@ -85,7 +85,7 @@ export const Header = () => {
           </li>
         </ul>
       </motion.div>
-      <img src={circleRight} alt="" className="absolute top-0 right-32 z-20" />
+      <img src={circleRight} alt="" className="absolute top-0 right-32 z-20 pointer-events-none overflow-hidden" />
     </header>
   );
 };

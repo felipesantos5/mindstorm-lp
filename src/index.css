@@ -18,10 +18,13 @@ body {
 }
 
 .MuiSvgIcon-root {
-  fill: black !important;
+  fill: white !important;
 }
 
-.test::before {
-  content: "";
-  width: 0;
+.MuiPaper-root {
+  border-bottom: 1px solid white;
+}
+
+.MuiAccordionDetails-root a {
+  margin-bottom: 5px;
 }
