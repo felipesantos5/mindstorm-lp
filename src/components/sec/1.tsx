@@ -15,7 +15,7 @@ export const Sec1 = () => {
         <p className="text-[#ACAEB6] text-xl mb-14 max-w-4xl ">Combinamos expertise em tecnologia e conhecimento de mercado para oferecer soluções personalizadas que atendem às necessidades únicas da sua empresa.</p>
         <Button children={"Contratar serviço"} />
       </motion.section>
-      <img src={card} alt="" className="absolute -bottom-[600px] z-30" />
+      <img src={card} alt="" className="absolute -bottom-[600px] md:-bottom-[300px] z-30" />
       <img src={circleLeft} alt="" className="absolute top-32 -left-16 md:-left-48 z-20 pointer-events-none" />
     </section>
   )

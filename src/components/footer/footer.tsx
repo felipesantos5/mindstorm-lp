@@ -31,7 +31,7 @@ export const Footer = () => {
       <AccordionFooter />
       <section className="bg-[#101828] py-12 lg:px-4">
         <div className="flex justify-between items-center max-w-7xl m-auto">
-          <p className="text-[#98A2B3] mr-2">© 2024 Mindstorm. Todos os direitos reservados.</p>
+          <p className="text-[#98A2B3] mr-4">© 2024 Mindstorm. Todos os direitos reservados.</p>
           <div className="flex gap-6">
             <a href="" >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="#98A2B3" xmlns="http://www.w3.org/2000/svg">

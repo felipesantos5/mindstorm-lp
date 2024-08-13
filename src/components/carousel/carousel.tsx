@@ -9,7 +9,7 @@ const Carousel = () => {
     if (width < 600) {
       return {
         slides: {
-          perView: 3
+          perView: 2
         },
       };
     } else if (width < 1024) {

@@ -5,12 +5,11 @@ import profile3 from "../../assets/card/profile3.jpeg"
 import profile4 from "../../assets/card/profile4.jpeg"
 import profile5 from "../../assets/card/profile5.jpeg"
 import profile6 from "../../assets/card/profile6.jpeg"
-import { SectionAnimted } from "../animationsection/animationSection"
 
 export const Sec7 = () => {
   return (
     <section className="bg-backgroundLight pt-32 pb-32">
-      <SectionAnimted className='max-w-7xl m-auto flex flex-col items-center gap-20 xsm:px-4'>
+      <section className='max-w-7xl m-auto flex flex-col items-center gap-20 xsm:px-4'>
         <h2 className="text-primary text-4xl font-bold text-center">Veja quem já  está usufruindo da Mindstorm</h2>
         <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 md:grid-cols-1">
           <SocialProofCard name={"Augusto"} profession={"Mobile Developer"} profileImg={profile1} />
@@ -20,7 +19,7 @@ export const Sec7 = () => {
           <SocialProofCard name={"Bernardo"} profession={"Project Manager"} profileImg={profile5} />
           <SocialProofCard name={"Roberto"} profession={"CTO"} profileImg={profile6} />
         </div>
-      </SectionAnimted>
+      </section>
     </section>
   )
 }
