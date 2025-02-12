@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import 'keen-slider/keen-slider.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "keen-slider/keen-slider.min.css";
 
 @font-face {
-  font-family: 'UniteaSans';
-  src: url('./assets/fonts/unitea-sans-cufonfonts/UniteaSans-Regular.otf') format('opentype');
+  font-family: "UniteaSans";
+  src: url("./assets/fonts/unitea-sans-cufonfonts/UniteaSans-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -12,9 +12,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: 'UniteaSans', sans-serif;
+  font-family: "UniteaSans", sans-serif;
 }
 
 .MuiSvgIcon-root {

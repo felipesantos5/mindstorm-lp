@@ -5,6 +5,11 @@ import { useState } from 'react';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenBox, setIsOpenBox] = useState(false);
+
+  const toggleOptions = () => {
+    setIsOpen(!isOpen);
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -19,26 +24,14 @@ export const Header = () => {
         </div>
         <nav className="lg:hidden z-40">
           <ul className="flex gap-10 hover:font-medium">
-            <li className="flex items-center gap-2">
-              <a href="/">Soluções</a>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10" fill="none">
-                <path d="M7.28498 5.63281C7.67725 6.03401 8.32275 6.03401 8.71502 5.63282L13.5075 0.731288C13.8997 0.330098 14.5453 0.330098 14.9375 0.731288L15.3164 1.11884C15.6964 1.50747 15.6964 2.12843 15.3164 2.51706L8.71502 9.26871C8.32275 9.6699 7.67725 9.6699 7.28498 9.26871L0.683551 2.51705C0.303573 2.12843 0.303574 1.50746 0.683552 1.11884L1.06248 0.731287C1.45474 0.330097 2.10025 0.330097 2.49251 0.731287L7.28498 5.63281Z" fill="white" />
-              </svg>
+            <li>
+              <a href="#clientes">Clientes</a>
             </li>
             <li>
-              <a href="/about">Método</a>
+              <a href="#sobre-nos">Sobre nós</a>
             </li>
             <li>
-              <a href="/about">Sobre nós</a>
-            </li>
-            <li>
-              <a href="/about">Suporte</a>
-            </li>
-            <li>
-              <a href="/about">Contato</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
+              <a href="https://api.whatsapp.com/send/?phone=554888196362&text=Ola+gostaria+de+saber+mais&type=phone_number&app_absent=0">Fale conosco</a>
             </li>
           </ul>
         </nav>
@@ -85,7 +78,7 @@ export const Header = () => {
           </li>
         </ul>
       </motion.div>
-      <img src={circleRight} alt="" className="absolute top-0 right-32 z-20 pointer-events-none overflow-hidden" />
+      <img src={circleRight} alt="" className="absolute top-0 right-24 z-20 pointer-events-none overflow-hidden" />
     </header>
   );
 };
