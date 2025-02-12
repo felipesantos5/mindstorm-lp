@@ -1,6 +1,5 @@
 import circleLeft from "../../assets/circle-cta-left.svg"
 import { Button } from "../button/defaut"
-import card from "../../assets/testando.svg"
 import { motion } from "framer-motion"
 
 

@@ -5,11 +5,6 @@ import { useState } from 'react';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpenBox, setIsOpenBox] = useState(false);
-
-  const toggleOptions = () => {
-    setIsOpen(!isOpen);
-  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
